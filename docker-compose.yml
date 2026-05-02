@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  nessus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: nessus-essentials
+    hostname: nessus
+
+    ports:
+      - "8834:8834"
+
+    volumes:
+      - nessus_data:/opt/nessus/var/nessus
+      - ./logs:/opt/nessus/var/nessus/logs
+
+    environment:
+      - NESSUS_ACTIVATION_CODE=${NESSUS_ACTIVATION_CODE:-}
+
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "curl", "-fsk", "https://localhost:8834/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  nessus_data:
+    name: nessus_data
+    driver: local

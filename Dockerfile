@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl -fsSL \
-    "https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.7.4-ubuntu1404_amd64.deb" \
+    "https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.12.0-ubuntu1604_amd64.deb" \
     -o /tmp/nessus.deb \
     && dpkg -i /tmp/nessus.deb \
     && rm -f /tmp/nessus.deb
