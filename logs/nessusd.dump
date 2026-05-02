@@ -1,0 +1,32 @@
+[Sat May 02 15:48:15 2026 +0000][76.0][op=sync][name=services-udp.db][fd=9][map_sz=0][file_size=130762][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=sync][name=services-tcp.db][fd=8][map_sz=0][file_size=137418][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=_map][name=services-udp.db][fd=4294967295][map_sz=38551][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=_map][name=services-tcp.db][fd=4294967295][map_sz=40734][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=_map][name=services-tcp.db][fd=4294967295][map_sz=40734][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=sync][name=plugins-lib.db][fd=9][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=sync][name=plugins-desc.db][fd=11][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=sync][name=plugins-code.db][fd=10][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=sync][name=plugins-lib.db][fd=9][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=_map_lowmem][name=plugins-code.db.1777736895975395685][fd=10][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=_map_lowmem][name=plugins-lib.db.1777736895382980042][fd=9][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:15 2026 +0000][76.0][op=_map_lowmem][name=plugins-desc.db.1777736895746185907][fd=11][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:48:16 2026 +0000][108.32][severity=INFO] : nessus_popen_init(): execvp(java) failed : No such file or directory 
+[Sat May 02 15:51:43 2026 +0000][10.0][op=_map][name=services-udp.db][fd=4294967295][map_sz=38551][severity=INFO] : QDB--complete
+[Sat May 02 15:51:43 2026 +0000][10.0][op=_map][name=services-tcp.db][fd=4294967295][map_sz=40734][severity=INFO] : QDB--complete
+[Sat May 02 15:51:43 2026 +0000][10.0][op=_map][name=services-tcp.db][fd=4294967295][map_sz=40734][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=sync][name=plugins-lib.db][fd=9][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=sync][name=plugins-desc.db][fd=12][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=sync][name=plugins-code.db][fd=11][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=sync][name=plugins-lib.db][fd=9][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=_map_lowmem][name=plugins-code.db.17777371041064925845][fd=11][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=_map_lowmem][name=plugins-lib.db.17777371042061257234][fd=9][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][10.0][op=_map_lowmem][name=plugins-desc.db.17777371041004670010][fd=12][map_sz=0][file_size=20][severity=INFO] : QDB--complete
+[Sat May 02 15:51:44 2026 +0000][42.35][severity=INFO] : nessus_popen_init(): execvp(java) failed : No such file or directory 
+[Sat May 02 15:54:11 2026 +0000][10.84][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:54:13 2026 +0000][10.35][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:55:02 2026 +0000][10.84][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:55:30 2026 +0000][10.84][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:56:40 2026 +0000][10.35][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:56:55 2026 +0000][10.35][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:57:53 2026 +0000][10.35][severity=INFO] : Unrecoverable SSL_accept error: error:0A00009C:SSL routines::http request 
+[Sat May 02 15:59:41 2026 +0000][10.150][severity=INFO] : send_buffer_ssl: polled an error on the socket during write (broken connection)

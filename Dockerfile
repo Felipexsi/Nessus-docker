@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -21,4 +21,4 @@ EXPOSE 8834
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
     CMD curl -fsk https://localhost:8834/ || exit 1
 
-CMD ["/opt/nessus/sbin/nessusd", "-D"]
+CMD ["/bin/sh", "-c", "/opt/nessus/sbin/nessus-service -D; while true; do sleep 30; done"]

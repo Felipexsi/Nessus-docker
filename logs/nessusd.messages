@@ -1,0 +1,34 @@
+[Sat May 02 15:48:15 2026 +0000][76.1] Init the Nessus log file: /opt/nessus/var/nessus/logs/nessusd.messages, file size 536870912 bytes, keep 100 files
+[Sat May 02 15:48:15 2026 +0000][76.1] Priority set to 0 
+[Sat May 02 15:48:15 2026 +0000][76.1] nessusd 10.12.0 (build 20184) started
+[Sat May 02 15:48:15 2026 +0000][76.1] System has 2 cores and 911MB of RAM
+[Sat May 02 15:48:15 2026 +0000][76.1] Linux overcommit_memory policy is set to: 0
+[Sat May 02 15:48:15 2026 +0000][76.1] Missing certificate '/opt/nessus/var/nessus/CA/serverkey.pem' 
+[Sat May 02 15:48:15 2026 +0000][76.1] Missing certificate '/opt/nessus/com/nessus/CA/servercert.pem' 
+[Sat May 02 15:48:15 2026 +0000][76.1] Generating server certificates 
+[Sat May 02 15:48:15 2026 +0000][76.1] profiled 555380 vm ops / 10msec 
+[Sat May 02 15:48:15 2026 +0000][76.1] VM thread pool size: 2-200
+[Sat May 02 15:48:15 2026 +0000][76.1] Setting Scanner:  engine.min=4 engine.max=16  global.max_scans=0  global.max_hosts=5  engine.max_hosts=16  engine.optimal_hosts=2 (scan)max_hosts=5  (scan)max_checks=5
+[Sat May 02 15:48:15 2026 +0000][76.1] PS thread pool size: 1-16
+[Sat May 02 15:48:15 2026 +0000][76.1] WebServer thread pool size: 2-600
+[Sat May 02 15:48:15 2026 +0000][76.1] Processing the Nessus plugins...
+[Sat May 02 15:48:15 2026 +0000][76.0] WebServer service is running (pid=45)
+[Sat May 02 15:48:15 2026 +0000][76.1] All plugins loaded (0sec)
+[Sat May 02 15:48:15 2026 +0000][76.1] Nessus is ready
+[Sat May 02 15:51:43 2026 +0000][10.1] Init the Nessus log file: /opt/nessus/var/nessus/logs/nessusd.messages, file size 536870912 bytes, keep 100 files
+[Sat May 02 15:51:43 2026 +0000][10.1] Priority set to 0 
+[Sat May 02 15:51:43 2026 +0000][10.1] nessusd 10.12.0 (build 20184) started
+[Sat May 02 15:51:43 2026 +0000][10.1] System has 2 cores and 911MB of RAM
+[Sat May 02 15:51:43 2026 +0000][10.1] Linux overcommit_memory policy is set to: 0
+[Sat May 02 15:51:43 2026 +0000][10.1] Missing certificate '/opt/nessus/com/nessus/CA/servercert.pem' 
+[Sat May 02 15:51:43 2026 +0000][10.1] Generating server certificates 
+[Sat May 02 15:51:44 2026 +0000][10.1] profiled 555380 vm ops / 10msec 
+[Sat May 02 15:51:44 2026 +0000][10.1] VM thread pool size: 2-200
+[Sat May 02 15:51:44 2026 +0000][10.1] Setting Scanner:  engine.min=4 engine.max=16  global.max_scans=0  global.max_hosts=5  engine.max_hosts=16  engine.optimal_hosts=2 (scan)max_hosts=5  (scan)max_checks=5
+[Sat May 02 15:51:44 2026 +0000][10.1] PS thread pool size: 1-16
+[Sat May 02 15:51:44 2026 +0000][10.1] WebServer thread pool size: 2-600
+[Sat May 02 15:51:44 2026 +0000][10.1] Processing the Nessus plugins...
+[Sat May 02 15:51:44 2026 +0000][10.0] WebServer service is running (pid=45)
+[Sat May 02 15:51:44 2026 +0000][10.1] All plugins loaded (0sec)
+[Sat May 02 15:51:44 2026 +0000][10.1] Nessus is ready
+[Sat May 02 15:59:41 2026 +0000][10.150] send_file: remote system at address 181.42.252.245:9320 closed the connection. (Broken pipe)

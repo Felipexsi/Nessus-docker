@@ -1,0 +1,165 @@
+[02/May/2026:15:48:15 +0000] [info] Log engine initialized
+[02/May/2026:15:48:15 +0000] [info] osinfo: {"version":"22.04.5 LTS (Jammy Jellyfish)","name":"Ubuntu","version_id":"22.04"}
+[02/May/2026:15:48:15 +0000] [info] version, eng: 19.18.0-20184 backend: 10.12.0-184
+[02/May/2026:15:48:15 +0000] [info] Processing orphaned SC policies, removing any that are 1 day or older
+[02/May/2026:15:48:15 +0000] [info] End processing orphaned SC policies, deleted 0 files
+[02/May/2026:15:48:15 +0000] [info] The server cert /opt/nessus/com/nessus/CA/servercert.pem is confirmed against CA cert /opt/nessus/com/nessus/CA/cacert.pem
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/notifications.json.new to /opt/nessus/var/nessus/notifications.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/agent-plugins.json.config.install to /opt/nessus/var/nessus/agent-plugins.json.config.install, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Copying templates version 197001010000 to /opt/nessus/var/nessus/templates/tmp
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/tooltips.json.new to /opt/nessus/var/nessus/templates/tmp/tooltips.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/settings.json.new to /opt/nessus/var/nessus/templates/tmp/settings.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/compliance.json.new to /opt/nessus/var/nessus/templates/tmp/compliance.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/scap.json.new to /opt/nessus/var/nessus/templates/tmp/scap.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/restrictions.json.new to /opt/nessus/var/nessus/templates/tmp/restrictions.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/credentials.json.new to /opt/nessus/var/nessus/templates/tmp/credentials.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/policy_wizards.json.new to /opt/nessus/var/nessus/templates/tmp/policy_wizards.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/metadata.json.new to /opt/nessus/var/nessus/templates/tmp/metadata.json, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Finished copying templates.
+[02/May/2026:15:48:16 +0000] [info] Moved new templates with version 197001010000 from plugins dir.
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/pendo-client.js.new to /opt/nessus/var/nessus/www/pendo-client.js, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/pendo-client.version to /opt/nessus/var/nessus/www/pendo-client.version, falling back to copy+delete
+[02/May/2026:15:48:16 +0000] [info] [globaldb] Waiting for global.db initialization
+[02/May/2026:15:48:16 +0000] [info] [globaldb] Continuing to load Nessus.
+[02/May/2026:15:48:16 +0000] [info] [globaldb] license: {"features":{"offline":true,"remote_link":true,"software_update":true},"type":"unknown","expiration_date":0,"ips":0,"restricted":true,"agents":0,"mode":16777216,"scanners":0,"name":"Nessus (Unregistered Scanner)"}
+[02/May/2026:15:48:16 +0000] [info] [globaldb] Copying templates version 197001010000 to /opt/nessus/var/nessus/templates
+[02/May/2026:15:48:16 +0000] [info] [globaldb] Finished copying templates.
+[02/May/2026:15:48:16 +0000] [info] [globaldb] Updated templates to version 197001010000.
+[02/May/2026:15:48:16 +0000] [trace] [http] Failed to open global database (0)
+[02/May/2026:15:48:16 +0000] [trace] {"op":"call","cur_func":"log._log+70","param":["addr(0xf0000171)","-"],"note":"stack_dump() [C func]","addr":"146c0"}
+[02/May/2026:15:48:16 +0000] [trace] {"op":"call","cur_func":"log.trace+6","param":["addr(0x80000a)","-"],"note":"log._log()","addr":"146f4"}
+[02/May/2026:15:48:16 +0000] [trace] {"op":"refcall","cur_func":"DB::open+16","param":["v#88","string#660"],"note":"from: v#88","addr":"23fa9"}
+[02/May/2026:15:48:16 +0000] [trace] {"op":"call","cur_func":"server::Server.checkForTimeAnomaly+4","param":["addr(0x23f99)","-"],"note":"DB::open()","addr":"17626"}
+[02/May/2026:15:48:16 +0000] [trace] {"op":"refcall","cur_func":"main+108","param":["v#278","string#4430"],"note":"from: v#278","addr":"31798"}
+[02/May/2026:15:48:16 +0000] [trace] {"op":"call","cur_func":"main+13773","param":["addr(0x3172c)","-"],"note":"main()","addr":"3d76f"}
+[02/May/2026:15:48:16 +0000] [error] [http] Failed to open global database to check for time anomaly: {"__object__Error":{"code":500,"connectionFailed":null,"msg":"Failed to open global database (0)"}}
+[02/May/2026:15:48:45 +0000] [info] [logdaily] firing daily log events...
+[02/May/2026:15:49:11 +0000] [info] [globaldb] [init=wizarddb] Skipping templates copy; no template updates found in /opt/nessus/var/nessus/templates/tmp
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Creating global.db version 2.3.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 2.4.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 6.0.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 6.2.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 6.3.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 6.5.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 6.10.5
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 7.0.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 7.1.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 7.1.1
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.0.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.1.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.2.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.4.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.4.10
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.6.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.8.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.9.1
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.12.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.13.1
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.14.1
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.15.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.15.1
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 8.15.2
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.0.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.1.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.2.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.4.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Terrascan: ingesting policies...
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Terrascan: migrating any scans that are found...
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.5.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.6.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.8.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.9.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.9.2
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.10.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.10.2
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.11.0
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.11.2
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrading global.db to version 10.12.0
+[02/May/2026:15:49:13 +0000] [info, ip_tracking] [globaldb] AssetTrackingIPs table initialized in license database
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Upgrade complete.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Auto-configuration: attempting to get AWS cloud instance metadata (this will fail if not on AWS).
+[02/May/2026:15:49:13 +0000] [warn, aws] [globaldb] Failed to get user data: Local api request failed: response status code 404 
+[02/May/2026:15:49:13 +0000] [info] [globaldb] Waiting for Nessus to be ready
+[02/May/2026:15:49:13 +0000] [info] [globaldb] No sensor profile configuration to apply.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] cleanup is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] scanner-stats is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] scanner-stats-cleanup is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] event-cleanup is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] feed-status-check is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] agent-activity-cleanup is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] telemetry-service is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] plugin-healthcheck-service is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] triggered-scan-service is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] agent-mover is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] docker-detect is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] was-docker is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-sync is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-scan-sync is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-directive-sync is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-profile-sync is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-scan-uploader is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-updater is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-activity-uploader is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-status-check is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] node-scan-check is starting.
+[02/May/2026:15:49:13 +0000] [info] [globaldb] backup-service is starting.
+[02/May/2026:15:49:14 +0000] [info] [msmanager] Disabling msmanager - not a remote scanner
+[02/May/2026:15:49:14 +0000] [info] [cleanup] Start processing scan history, effective retention days = 0
+[02/May/2026:15:49:14 +0000] [info] [cleanup] Processing orphaned scan results, removing any that are older than 30 days
+[02/May/2026:15:49:14 +0000] [info] [cleanup] Processing packet capture archives, removing any that are older than 30 days
+[02/May/2026:15:49:14 +0000] [info] [cleanup] End processing packet capture archives, deleted 0 files
+[02/May/2026:15:51:44 +0000] [info] Log engine initialized
+[02/May/2026:15:51:44 +0000] [info] osinfo: {"version":"22.04.5 LTS (Jammy Jellyfish)","name":"Ubuntu","version_id":"22.04"}
+[02/May/2026:15:51:44 +0000] [info] version, eng: 19.18.0-20184 backend: 10.12.0-184
+[02/May/2026:15:51:44 +0000] [info] Processing orphaned SC policies, removing any that are 1 day or older
+[02/May/2026:15:51:44 +0000] [info] End processing orphaned SC policies, deleted 0 files
+[02/May/2026:15:51:44 +0000] [info] The server cert /opt/nessus/com/nessus/CA/servercert.pem is confirmed against CA cert /opt/nessus/com/nessus/CA/cacert.pem
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/notifications.json.new to /opt/nessus/var/nessus/notifications.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/agent-plugins.json.config.install to /opt/nessus/var/nessus/agent-plugins.json.config.install, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Copying templates version 197001010000 to /opt/nessus/var/nessus/templates/tmp
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/tooltips.json.new to /opt/nessus/var/nessus/templates/tmp/tooltips.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/settings.json.new to /opt/nessus/var/nessus/templates/tmp/settings.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/compliance.json.new to /opt/nessus/var/nessus/templates/tmp/compliance.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/scap.json.new to /opt/nessus/var/nessus/templates/tmp/scap.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/restrictions.json.new to /opt/nessus/var/nessus/templates/tmp/restrictions.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/credentials.json.new to /opt/nessus/var/nessus/templates/tmp/credentials.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/policy_wizards.json.new to /opt/nessus/var/nessus/templates/tmp/policy_wizards.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Failed renaming /opt/nessus/lib/nessus/plugins/metadata.json.new to /opt/nessus/var/nessus/templates/tmp/metadata.json, falling back to copy+delete
+[02/May/2026:15:51:44 +0000] [info] Finished copying templates.
+[02/May/2026:15:51:44 +0000] [info] Moved new templates with version 197001010000 from plugins dir.
+[02/May/2026:15:51:44 +0000] [info] [globaldb] Waiting for global.db initialization
+[02/May/2026:15:51:44 +0000] [info] [globaldb] Continuing to load Nessus.
+[02/May/2026:15:51:44 +0000] [info] [globaldb] license: {"features":{"offline":true,"remote_link":true,"software_update":true},"type":"unknown","expiration_date":0,"ips":0,"restricted":true,"agents":0,"mode":16777216,"scanners":0,"name":"Nessus (Unregistered Scanner)"}
+[02/May/2026:15:52:14 +0000] [info] [logdaily] firing daily log events...
+[02/May/2026:15:52:41 +0000] [info] [globaldb] Auto-configuration: attempting to get AWS cloud instance metadata (this will fail if not on AWS).
+[02/May/2026:15:52:41 +0000] [warn, aws] [globaldb] Failed to get user data: Local api request failed: response status code 404 
+[02/May/2026:15:52:41 +0000] [info] [globaldb] Waiting for Nessus to be ready
+[02/May/2026:15:52:41 +0000] [info] [globaldb] No sensor profile configuration to apply.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] cleanup is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] scanner-stats is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] scanner-stats-cleanup is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] event-cleanup is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] feed-status-check is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] agent-activity-cleanup is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] telemetry-service is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] plugin-healthcheck-service is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] triggered-scan-service is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] agent-mover is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] docker-detect is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] was-docker is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-sync is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-scan-sync is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-directive-sync is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-profile-sync is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-scan-uploader is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-updater is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-activity-uploader is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-status-check is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] node-scan-check is starting.
+[02/May/2026:15:52:41 +0000] [info] [globaldb] backup-service is starting.
+[02/May/2026:15:52:42 +0000] [info] [msmanager] Disabling msmanager - not a remote scanner
+[02/May/2026:15:52:42 +0000] [info] [cleanup] Start processing scan history, effective retention days = 0
+[02/May/2026:15:52:42 +0000] [info] [cleanup] Processing orphaned scan results, removing any that are older than 30 days
+[02/May/2026:15:52:42 +0000] [info] [cleanup] Processing packet capture archives, removing any that are older than 30 days
+[02/May/2026:15:52:42 +0000] [info] [cleanup] End processing packet capture archives, deleted 0 files
+[02/May/2026:15:59:41 +0000] [error] [http] [REQ_ID=mug/1777737580:0:36, request_id=mug/1777737580:0:36] Error sending file: /opt/nessus/var/nessus/www//nessus6.css fd: 0
